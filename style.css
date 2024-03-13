@@ -1,0 +1,117 @@
+body {
+    background-color: #a36c73;
+    width: 100vw;
+    height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    background-color: #FFF0E9;
+    ;
+    align-items: center;
+}
+
+.logo-docito {
+    max-width: 100px;
+    max-height: 75px;
+    width: auto;
+    height: auto;
+}
+
+.lista__menu {
+    display: flex;
+    gap: 1em;
+}
+
+.lista__menu__link {
+    font-size: 17px;
+}
+
+.promocoes {
+    background-color: #a36c73;
+}
+
+.promocao {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    padding: 1em;
+    text-align: center;
+    font-size: 22px;
+}
+
+.bolo-de-chocolate {
+    max-width: 75px;
+    max-height: 75px;
+    margin: auto;
+}
+
+.bolos {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.bolo {
+    display: flex;
+    margin: .2em;
+    width: 10em;
+    gap: .2em;
+    flex-direction: column;
+}
+
+.interagir {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fazer-pedido {
+    background-color: #FFF0E9;
+    padding: 0.5em;
+    border: black solid 0.5px;
+    border-radius: 12px;
+}
+
+.rodape {
+    background-color: #FFF0E9;
+}
+
+.titulo__rodape {
+    padding: 1em;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+}
+
+.descricao__bolo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-bottom: 0.7em;
+}
+
+
+
+
+#coracao {
+    display: none;
+  }
+  
+  #coracao:checked + .icone > svg {
+    animation: preencher;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes preencher {
+    0% {
+      fill: transparent;
+    }
+    100% {
+      fill: #144569;
+    }
+  }
+  
